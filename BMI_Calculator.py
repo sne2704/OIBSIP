@@ -1,8 +1,8 @@
 # BMI Calculator in Python with Height in cm
 
 # Get user input
-weight = float(input("Enter your weight (in kilograms) : "))
-height_cm = float(input("Enter your height (in centimeters) : "))
+weight = float(input("Enter your weight (in kilograms) : \n"))
+height_cm = float(input("Enter your height (in centimeters) : \n"))
 
 # Convert cm to meters
 height_m = height_cm / 100
@@ -11,7 +11,7 @@ height_m = height_cm / 100
 bmi = weight / (height_m ** 2)
 
 # Print BMI
-print(f"\nYour BMI is: {bmi:.2f}")
+print(f"\nYour BMI is: \n {bmi:.2f}")
 
 # BMI Category
 if bmi < 18.5:
